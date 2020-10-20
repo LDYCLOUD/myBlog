@@ -13,6 +13,8 @@ categories:
 
 2. Lombok plugin：简化代码（很好用）
 
+<!--more-->
+
 3. Alibaba Cloud Toolkit：Alibaba Cloud Toolkit （后文简称 Cloud Toolkit）是阿里云针对 IDE 平台为开发者提供的一款插件，用于帮助开发者高效开发并部署适合在云端运行的应用。（很好用）
 
 4. Maven Helper：查看maven依赖关系，maven依赖管理工具
@@ -25,7 +27,6 @@ categories:
 
    这个时候如果sql语句比较长比较复杂的话再手动拼接起来就会比较复杂，万一再手抖一下还原sql的过程中弄点什么差错出来的话就会很麻烦，浪费时间还解决不了问题，导致开发效率大打折扣，这个时候我们的一款优秀的IDEA插件Mybatis Log Plugin就闪亮登场。
 
-8. 
 
 
 
