@@ -1388,7 +1388,7 @@ private void invokeAwareMethods(final String beanName, final Object bean) {
 
 **BeanPostProcessor的postProcessBeforeInitialization方法**
 
-BeanPostProcessor的postProcessBeforeInitialization方法位于initializeBean的
+BeanPostProcessor的postProcessBeforeInitialization方法位于initializeBean后面的applyBeanPostProcessorsBeforeInitialization
 
 ```java
 if (mbd == null || !mbd.isSynthetic()) {
@@ -1413,7 +1413,7 @@ if (mbd == null || !mbd.isSynthetic()) {
 
 **afterPropertiesSet init-method**
 
-afterPropertiesSet init-method位于initializeBean中的
+afterPropertiesSet init-method位于initializeBean中
 
 ```java
 invokeInitMethods(beanName, wrappedBean, mbd);
@@ -1428,7 +1428,7 @@ invokeCustomInitMethod(beanName, bean, mbd);
 
 **BeanPostProcessor的postProcessAfterInitialization方法**
 
-BeanPostProcessor的postProcessAfterInitialization方法位于initializeBean的
+BeanPostProcessor的postProcessAfterInitialization方法位于initializeBean后的applyBeanPostProcessorsAfterInitialization
 
 ```java
 if (mbd == null || !mbd.isSynthetic()) {
